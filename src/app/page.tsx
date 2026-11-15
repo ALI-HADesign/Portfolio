@@ -30,7 +30,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="relative flex w-full max-w-[584px] flex-col items-center">
+        <div className="relative flex w-full max-w-[584px] flex-col items-center gap-4">
           <Image
             src="/hero/cat-illustration.png"
             alt="Illustration of a sleeping cat curled up on a stack of books"
@@ -40,15 +40,15 @@ export default function Home() {
             priority
           />
 
-          <div className="flex w-full items-end justify-between gap-4 pl-4">
+          <div className="ml-auto flex flex-col items-center gap-2 pr-4">
             <Image
               src="/hero/arrow.svg"
               alt=""
               width={90}
               height={152}
-              className="h-[110px] w-auto shrink-0 sm:h-[140px]"
+              className="h-[110px] w-auto shrink-0 -scale-x-100 sm:h-[140px]"
             />
-            <p className="font-mono text-[24px] leading-[1.15] sm:text-[32px]">
+            <p className="max-w-[220px] text-center font-mono text-[24px] leading-[1.15] sm:max-w-[280px] sm:text-[32px]">
               I also draw illustrations
             </p>
           </div>
